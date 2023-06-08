@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Aprendiendo cositas de Git</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi delectus dolorum laborum molestias labore quibusdam. Ea optio officia at, quasi sed atque alias sunt vel est quas deserunt rerum voluptatibus.</p>
-</body>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- formulario correo -->
+    <form>
+      <input type="email" id="correo" />
+      <button id="btn">Guardar correo</button>
+    </form>
+    <p id="parrafo"></p>
+
+    <!-- formulario notas -->
+    <h2>Form notas</h2>
+    <div class="msgError"></div>
+    <form id="form-nota">
+        <input type="text"  id="titulo">
+        <textarea id="contenido" cols="30" rows="10"></textarea>
+        <button type="submit">Guardar nota</button>
+    </form>
+    <p id="parrafo-nota"></p>
+
+    <!-- 3. Pintar en el DOM -->
+    <h2>Pintar en DOM</h2>
+    <p id="parrafo-euralio"></p>
+    <h3>Personas</h3>
+    <div class="personas">
+
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
